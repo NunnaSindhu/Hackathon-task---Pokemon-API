@@ -91,6 +91,7 @@ searchButton.addEventListener("click", async () => {
 //Logic to clear the search results
 clearButton.addEventListener("click", () => {
   searchInput.value = "";
+   displayResult.innerHTML="";
   displayPokemon(getData());
 });
 getData();
